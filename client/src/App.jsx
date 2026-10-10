@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL =
-  "https://effective-memory-gx5p69xp5jwq2vpwr-5000.app.github.dev/api/students";
+  "https://cloud-lab-backend-asgh.onrender.com/api/students";
 
 function App() {
   const [students, setStudents] = useState([]);
