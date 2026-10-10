@@ -11,11 +11,12 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin: "https://effective-memory-gx5p69xp5jwq2vpwr-5173.app.github.dev",
+    origin: "https://cloud-lab-frontend-i1tt.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type"]
 }));
 app.use(express.json());
+
 
 // API kiểm tra Backend
 app.get("/api/hello", (req, res) => {
